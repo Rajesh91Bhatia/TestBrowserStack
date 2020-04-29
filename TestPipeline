@@ -1,0 +1,35 @@
+import java.time.*
+
+pipeline
+{
+	agent any
+	
+	
+	stages
+	{
+		stage('Test Stage 1')
+		{
+			steps
+			{
+				echo "First step"
+			}
+	
+		}
+    }
+    post
+    {
+    	always
+    	{
+    		echo "This will always run";
+    	}
+    	success
+    	{
+    		echo "This will run on success";
+    	}
+	}
+}
+
+
+
+    
+
