@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="16303" started-at="2020-04-27T12:32:36Z" finished-at="2020-04-27T12:32:52Z">
+  <suite name="Default suite" duration-ms="208112" started-at="2020-04-29T10:21:41Z" finished-at="2020-04-29T10:25:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="16303" started-at="2020-04-27T12:32:36Z" finished-at="2020-04-27T12:32:52Z">
+    <test name="Default test" duration-ms="208112" started-at="2020-04-29T10:21:41Z" finished-at="2020-04-29T10:25:09Z">
       <class name="TestNG_WithBS">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG_WithBS@2aece37d]" name="beforeMethod" is-config="true" duration-ms="11" started-at="2020-04-27T18:02:36Z" finished-at="2020-04-27T18:02:36Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG_WithBS@5762806e]" name="beforeMethod" is-config="true" duration-ms="31" started-at="2020-04-29T15:51:41Z" finished-at="2020-04-29T15:51:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="TestGoogleLauchWithBS()[pri:0, instance:TestNG_WithBS@2aece37d]" name="TestGoogleLauchWithBS" duration-ms="16246" started-at="2020-04-27T18:02:36Z" finished-at="2020-04-27T18:02:52Z">
+        <test-method status="PASS" signature="MobileTest()[pri:0, instance:TestNG_WithBS@5762806e]" name="MobileTest" duration-ms="208001" started-at="2020-04-29T15:51:41Z" finished-at="2020-04-29T15:55:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestGoogleLauchWithBS -->
+        </test-method> <!-- MobileTest -->
       </class> <!-- TestNG_WithBS -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
